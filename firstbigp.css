@@ -1,0 +1,390 @@
+.social-media{
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    border-style:solid;
+    border-color: green;
+    cursor: pointer;  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.input-container {
+    position: relative;
+    display: inline-block;
+}
+.take-care-text {
+    font-size: 14px; 
+    line-height: 1.5;
+    max-width: 600px;
+}  
+.calendar-icon{
+    position: absolute;
+    bottom: 20%;
+    right: 10px;
+    cursor: pointer;
+} 
+#linkedin{
+    color: blue;
+}
+#facebook{
+    color: blue;
+}
+#twitter{
+    color: rgb(50, 95, 172);
+}
+#instagram{
+    color:#E4405F;
+}
+#datepicker{
+    color: black;
+}
+.icons{
+    margin-top: 2px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.About{
+    font-family:Arial, Helvetica, sans-serif;
+}
+input{
+    border-color: greenyellow;
+    width: 250px;
+    margin-top: 20px;
+    padding: 10px;
+}
+.bookingform{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+button{
+    margin-top: 10px;
+    height: 40px;
+    width: 100px;
+    color: green;
+    border-color: greenyellow;
+}
+.book-now{
+    text-align: center;
+}
+.booking{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+    border: 2px solid black;
+    padding: 10px;
+    border-top-left-radius:30px;
+    border-color: green;
+}
+.book-appointment{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: oblique;
+    text-align: center;
+}
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+.book-appointment{
+    animation: blink 1s infinite;
+    color:black;
+    text-shadow: 2px 2px 4px rgb(79, 76, 76);
+}
+.All-profile1,.All-profile2{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+.box4{
+    border-style:solid;
+    border-color: rgb(14, 139, 130);
+    margin-bottom: 10px;
+}
+.title-All{
+    text-align: center;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 10px solid transparent;
+    border-image: url('/2.jpg') 1 round;
+}
+.menu {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+li a {
+    text-decoration: none;
+    margin-inline: 10px;
+    color:black;
+    cursor: pointer;
+}
+li a:hover{
+    color: rgb(131, 198, 156);
+    transition: all 0.4s ease;
+}
+.header-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.image{
+    color: blue;
+}
+.Medicore{
+    margin-left: 15px;
+    font-size: 20px;
+    color: black;
+     font-size: 20px;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: bold;
+}
+.client{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.REVIEWS{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.pre-text{
+    font-size: 10px;
+    line-height:1rem;
+    text-align: center;
+
+}
+.star-icons{
+    align-items: center;
+    font-size: 14px;
+    text-align: center;
+}
+.image-review{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.Review-name{
+    font-size: 10px;
+    text-align: center;
+}
+.Review-2,.Review-1,.Review-3{
+    border: 2px solid;
+    width: 370px;
+    border-color: green;
+}
+.Review-con{
+    border: 1px solid;
+    background-color: rgb(85, 201, 172);
+    border-bottom-left-radius:50%;
+    border-bottom-right-radius:50%;
+    padding: 10px;
+}
+.image1{
+    border-radius: 50%;
+    object-fit:cover;
+    justify-content: center;
+}
+.Medicore:hover{
+    color: rgb(131, 198, 156);
+    transition: all 0.4s ease;
+}
+.bottom,.book-now{
+    font-size: 15px;
+    justify-content: center;
+    margin-top: 10px;
+    box-shadow: 10 10 10 10;   
+    cursor:pointer;
+    color:green;
+    border-color:green;
+}
+.bottom:hover{
+    background-color: green;
+    color: black;
+    box-shadow: inset;
+    transition: all 0.7s ease;
+}
+.Stay{
+    font-size: 30px;
+    line-height: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: green;
+    text-shadow: 2px 2px 4px green;
+}
+.body-main{
+    text-align-last: center;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    margin-top:30px;
+    justify-content: space-evenly;
+}
+.container-1,.container-2,.container-3,.container-4{
+    border-style:solid;
+    height: 150px;
+    width: 180px;
+    font-size: 40px;
+    text-align: center;
+    border-color: green;
+    cursor: pointer;  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.container-1:hover,.container-2:hover,.container-3:hover,.container-4:hover{
+    color: rgb(15, 101, 15);
+    transition: all 0.5s ease;
+    background-color: green;
+}
+.container{
+    padding:15%;
+}
+.number{
+    font-size: 30px;
+    font-weight: bold;
+    justify-content: center;
+}
+.number:hover,.descriptions:hover{
+    color: black;
+}
+.descriptions{
+    font-size: 20px;
+    font-weight:bold;
+    align-items: center;
+}
+h1{
+    color:black;
+    text-shadow: 2px 2px 4px black;
+    text-align: center;
+    margin-top: 50px;
+}
+span{
+    color: green;
+    text-shadow: 2px 2px 4px rgb(64, 152, 64);
+    font-weight: bold;
+}
+.our-service{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.map{
+    height:70vw;
+}
+.box1,.box2,.box3{
+    border-style:solid;
+    height: 250px;
+    width: 250px;
+    font-size: 20px;
+    text-align: center;
+    border-color: green;
+    cursor: pointer;  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.big-box1,.big-box2{
+    display: flex;
+    flex-direction: row;
+    margin-inline: 5px;
+    border: 1px;
+    padding: 10px;
+    padding-top: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box1:hover,.box2:hover,.box3:hover{
+    background-color: green;
+    color: black;
+    transition: All 0.2s ease;
+}
+.stats{
+    font-size: 30px;
+    font-style:inherit;
+    font-weight: bold;
+}
+body{
+    background-color:#BFEA7C;
+}
+
+.About{
+    text-align:center;
+    line-height: 20px;
+    font-size: 20px;
+}
+.care{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.About-us{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.blog-con{
+    display:flex;
+    flex-direction: column;
+    border: 2px solid;
+    width: 290px;
+    border-color: green;
+}
+.big-blog{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.title{
+    margin-top: 10px;
+}
+.blog-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.blog-title{
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.title{
+    text-align: center;
+}
+.learn-more{
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.pagination{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+li{
+   list-style: none;
+   line-height: 40px;
+   cursor:all-scroll;
+}
+li:hover{
+    color:green;
+}
+h3{
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px black;
+}
+#icon1,.pic{
+    color: rgb(11, 229, 105);
+}
